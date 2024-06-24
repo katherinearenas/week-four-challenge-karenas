@@ -1,6 +1,6 @@
-function retrievePost() {
-    const savedContent = JSON.parse(localStorage.getItem('blogPost'))
-}  
+
+
+
 
  // Access toggle switch HTML element
 const themeSwitcher = document.querySelector('#theme-switcher');
@@ -22,3 +22,26 @@ themeSwitcher.addEventListener('click', function () {
     container.setAttribute('class', 'dark');
   }
 });
+
+
+
+const allBlogPosts = JSON.parse(localStorage.getItem('allBlogPosts')) || []
+console.log(allBlogPosts)
+
+for (let i = 0;  i < allBlogPosts.length; i++) {
+    const allPosts = allBlogPosts[i];
+    console.log(allPosts)
+
+    let titleEl = document.createElement('h1')
+    titleEl.textContent = allPosts.title
+    document.querySelector(".displayBlogPosts").appendChild(titleEl)
+    
+    let contentEl = document.createElement('p')
+    contentEl.textContent = allPosts.content
+    document.querySelector(".displayBlogPosts").appendChild(contentEl)
+
+    let usernameEl = document.createElement('p')
+    usernameEl.textContent = "Username: " + allPosts.username
+    document.querySelector(".displayBlogPosts").appendChild(usernameEl)
+}
+

@@ -10,6 +10,7 @@
     const savedTitle = localStorage.getItem('title')
     const savedContent = localStorage.getItem('content')
     
+    let allBlogPosts = JSON.parse(localStorage.getItem("allBlogPosts")) || []
     
     // })
     
@@ -21,10 +22,11 @@
             title: titleInput.value,
             content: contentInput.value,
             username: usernameInput.value,
-    
-        }
+    }
+
         console.log(blogPost)
-    
-        localStorage.setItem('blogPost', JSON.stringify(blogPost))
-    
+        // let allBlogPosts = JSON.parse(localStorage.getItem("allBlogPosts")) || []
+        allBlogPosts.push(blogPost)
+        localStorage.setItem('allBlogPosts', JSON.stringify(allBlogPosts))
+        window.location.href = "blog.html"
     });
