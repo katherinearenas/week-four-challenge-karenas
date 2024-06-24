@@ -1,0 +1,27 @@
+:root{
+    --light-theme-bg: #F3E9D2;
+    --light-theme-txt: #093427;
+    --dark-theme-bg: #114B5F;
+    --dark-theme-txt: #C6DABF;
+
+
+
+}
+
+form{
+    display: block;
+    justify-items: center;
+    width: 75%;
+    height: 90%;
+}
+
+label{
+    color: var(--light-theme-txt);
+    background-color: var(--light-theme-bg);
+}
+
+
+input{
+    color: var(--dark-theme-txt);
+    background-color: var(--dark-theme-bg);
+}
