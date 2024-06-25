@@ -1,4 +1,4 @@
-/* body{
+body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
     padding: 30px; 
@@ -7,20 +7,17 @@
 }
 
 
-header h1{
+/* header h1{
     text-align: center;
-}
+} */
 
 main{
     max-width: 700px;
-    background-color: goldenrod;
     display: flexbox;
     align-items: center;
-
-
 }
 
-#blogPosts{
+/*#blogPosts{
 
     max-width: 600px;
     background-color: wheat;

@@ -31,6 +31,8 @@ console.log(allBlogPosts)
 for (let i = 0;  i < allBlogPosts.length; i++) {
     const allPosts = allBlogPosts[i];
     console.log(allPosts)
+    let allPostsEL = document.createElement('div')
+    document.querySelector(".displayBlogPosts").appendChild(allPostsEl)
 
     let titleEl = document.createElement('h1')
     titleEl.textContent = allPosts.title

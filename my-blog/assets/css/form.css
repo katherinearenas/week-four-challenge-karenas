@@ -12,13 +12,3 @@ form{
     height: 90%;
 }
 
-label{
-    color: var(--light-theme-txt);
-    background-color: var(--light-theme-bg);
-}
-
-
-input{
-    color: var(--dark-theme-txt);
-    background-color: var(--dark-theme-bg);
-}
