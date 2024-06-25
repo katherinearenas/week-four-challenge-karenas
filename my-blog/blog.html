@@ -7,13 +7,24 @@
     <link rel="stylesheet" href="assets/css/blog.css">
 </head>
 <body>
+    <div class="container dark">
     <header>
         <H1>Katherine's Blog | Read the Blog</H1>
-        <Button></Button>
     </header>
-    <main class="container">
-        <div id="blogPosts"></div>
+        <div class="row toggle">
+            <div class="col">
+              <p>DARK MODE</p>
+            </div>
+            <label class="switch col">
+              <input type="checkbox" id="theme-switcher">
+              <span class="slider round"></span>
+            </label>
+            <div class="col">
+              <p>LIGHT MODE</p>
+            </div>
+    <main class="displayBlogPosts">
     </main>
+    </div>
     <script src="assets/js/blog.js"></script>
 </body>
 </html>

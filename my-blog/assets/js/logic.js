@@ -1,20 +1,33 @@
-let username = document.getElementById('username');
-let title = document.getElementById('title');
-let content = document.getElementsByName('content');
-let submitBtn = document.getElementById('submit');
-console.log(title)
+// // document.addEventListener("DOMContentLoaded", => {
 
-submitBtn.addEventListener('click',function (event){
-    event.preventDefault();
+// const form = document.getElementById('blogPostForm')
+// const usernameInput = document.getElementById('username');
+// const titleInput = document.getElementById('title');
+// const contentInput = document.getElementById('postContent');
+// const submitBtn = document.getElementById('submit');
 
-    const blogPost = {
-        title: title.textContent,
-        content: content.textContent,
-        username: username.textContent,
+// const savedUsername = localStorage.getItem('username')
+// const savedTitle = localStorage.getItem('title')
+// const savedContent = localStorage.getItem('content')
 
-    }
-    console.log(blogPost)
 
-    localStorage.setItem('blogPost', JSON.stringify(blogPost))
+// // })
 
-});
+
+// submitBtn.addEventListener('click',function (event){
+//     event.preventDefault(); 
+
+//     const blogPost = {
+//         title: titleInput.value,
+//         content: contentInput.value,
+//         username: usernameInput.value,
+
+//     }
+
+//     let allPosts = JSON.parse()
+//     console.log(blogPost)
+
+//     localStorage.setItem('blogPost', JSON.stringify(blogPost))
+
+// });
+
