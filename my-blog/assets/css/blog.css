@@ -1,3 +1,12 @@
+
+:root{
+  --light-theme-bg: #F3E9D2;
+  --light-theme-txt: #093427;
+  --dark-theme-bg: #114B5F;
+  --dark-theme-txt: #C6DABF;
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
@@ -11,12 +20,19 @@ body{
     text-align: center;
 } */
 
-main{
-    max-width: 700px;
-    display: flexbox;
-    align-items: center;
-}
 
+    
+
+.displayBlogPosts{
+  border-radius: 30px;
+  border-color: #114B5F;
+  max-width: 700px;
+  display: block;
+  align-items: center;
+ 
+ 
+
+}
 /*#blogPosts{
 
     max-width: 600px;
@@ -25,12 +41,7 @@ main{
 
 } */
 
-:root{
-    --light-theme-bg: #F3E9D2;
-    --light-theme-txt: #093427;
-    --dark-theme-bg: #114B5F;
-    --dark-theme-txt: #C6DABF;
-}
+
 
 .dark {
     background-color: var(--dark-theme-bg);
