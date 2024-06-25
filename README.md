@@ -14,8 +14,8 @@ The blog also has a back button which redirects the user back to the blog post f
 
 
 
-!![screenshot](blogscreenshot.png)
-!![screenshot](formscreenshot.png)
+!![screenshot](my-blog/blogscreenshot.png)
+!![screenshot](my-blog/formscreenshot.png)
 
 https://katherinearenas.github.io/week-four-challenge-karenas/my-blog/index.html
 
