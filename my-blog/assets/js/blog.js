@@ -31,8 +31,10 @@ console.log(allBlogPosts)
 for (let i = 0;  i < allBlogPosts.length; i++) {
     const allPosts = allBlogPosts[i];
     console.log(allPosts)
+    // let allPostsEL = document.createElement('section')
+    // document.querySelector(".inputcard").appendChild(allPostsEl)
 
-    let titleEl = document.createElement('h1')
+    let titleEl = document.createElement('h3')
     titleEl.textContent = allPosts.title
     document.querySelector(".displayBlogPosts").appendChild(titleEl)
     
